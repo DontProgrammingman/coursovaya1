@@ -37,6 +37,8 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Фамилия "+ firstName + " Имя " + SecondName + " Отчество " + threeName + " ID " + this.id;
+        return "Фамилия "+ firstName + " Имя " + SecondName + " Отчество " + threeName + " ID " + id + " Зарплата " + salary;
     }
+
+
 }

@@ -8,7 +8,6 @@ public class Main {
         allEmployees(employees);
         employees[0].setSalary(20000);
         employees[1].setSalary(30000);
-        int percent = 5;
         System.out.println("Общая сумма затрат на зп составляет " + allSalary(employees));
 
         System.out.println("Минимальная зп равна " + minSalary(employees));
